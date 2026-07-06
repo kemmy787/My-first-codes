@@ -5,7 +5,7 @@ function areCircle(r) {
 let age = 23;
 let SamsAge = 23;
 let ac = areCircle; //statement,functio usage
-console.log(`Area of Circle is ${ac} and its type is ${typeof ac}`);
+console.log(`Area of Circle is ${ac(5)} and its type is ${typeof ac}`);
 
 //use named funtion
 //assign that funtion a variable
@@ -13,8 +13,7 @@ console.log(`Area of Circle is ${ac} and its type is ${typeof ac}`);
 
 let rA = function (l, w) {
   return l * w;
-  console.log(l * w);
 };
 
-rA(10, 20);
-console.log(`Area of Rectangle is ${rA} and its type is ${typeof rA}`);
+area = rA(10, 20);
+console.log(`Area of a rectangleis ${area} and its type is ${typeof area}`);
