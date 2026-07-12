@@ -25,4 +25,4 @@ setInterval(() => {
   const time = new Date();
   alert(`Current Time is ${time} and its type is ${typeof time}`);
   console.log(`Current Time is ${time} and its type is ${typeof time}`);
-}, 2000);
+}, 6000);
