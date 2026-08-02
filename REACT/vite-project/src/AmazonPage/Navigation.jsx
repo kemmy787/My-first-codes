@@ -1,10 +1,12 @@
 /*import <name> from<src>*/
-import logo from "../assets/amazon.jpg";
+import logo from "./assests/finalimage.png";
 
 /*Component time*/
 function Navigation() {
   return (
-    <div>
+    <div className="nav">
+      <img src={logo} width="60px"></img>
+      <input placeholder="Search"></input>
       <h2>Navigation Section </h2>
     </div>
   );
