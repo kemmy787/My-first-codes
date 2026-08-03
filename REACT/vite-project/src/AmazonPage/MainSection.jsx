@@ -1,7 +1,7 @@
 import ItemCard from "./ItemCard";
 function MainSection() {
   return (
-    <div style={{ diplay: flex, flexwrap: "wrap" }}>
+    <div style={{ display: "flex", flexWrap: "wrap" }}>
       <ItemCard />
       <ItemCard />
       <ItemCard />
