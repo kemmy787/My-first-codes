@@ -1,0 +1,10 @@
+/*class time*/
+.nav {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin-right: 5px;
+  margin-left: 5px;
+}

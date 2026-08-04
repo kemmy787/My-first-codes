@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Parent from "./Props/index";
+import Mapping from "./Mapping/testingthewaters";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Parent />
+    <Mapping />
   </StrictMode>,
 );
