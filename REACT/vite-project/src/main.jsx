@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Mapping from "./Mapping/testingthewaters";
+import Githubproject from "./Githubproject";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Mapping />
+    <Githubproject />
   </StrictMode>,
 );

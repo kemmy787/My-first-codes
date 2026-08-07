@@ -1,12 +1,23 @@
-function FilterList() {
-  return (
- <div>
-    <b> title</b>
+function FilterList(props) {
+  const { title, options } = props;
 
+  //props and mapping
+
+  return (
     <div>
-      {PushSubscriptionOptions,map}
+      <b>{title}</b>
+      <div>
+        {options.map((option, index) => {
+          return (
+            <div key={index}>
+              <input type="checkbox" />
+              <span>{option} </span>
+            </div>
+          );
+        })}
+      </div>
     </div>
- </div> );
+  );
 }
 
 export default FilterList;
